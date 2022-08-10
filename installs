@@ -1,3 +1,4 @@
 npm i discord.js
 npm i dotenv
 npm install --save-dev eslint
+npm install @discordjs/rest 
