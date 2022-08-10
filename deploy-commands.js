@@ -1,4 +1,5 @@
 // This file will be used to register and update the slash commands for our bot application.
+// NOTE: You only need to run node deploy-commands.js once. You should only run it again if you add or edit existing commands.
 
 const { SlashCommandBuilder, Routes } = require('discord.js');
 const { REST } = require('@discordjs/rest');
