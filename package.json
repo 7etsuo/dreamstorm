@@ -1,0 +1,25 @@
+{
+  "name": "dreamstorm",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesc1ent1st/dreamstorm.git"
+  },
+  "author": "Michael Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesc1ent1st/dreamstorm/issues"
+  },
+  "homepage": "https://github.com/thesc1ent1st/dreamstorm#readme",
+  "dependencies": {
+    "discord.js": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
