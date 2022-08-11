@@ -3,9 +3,9 @@ const { SlashCommandBuilder } = require('discord.js');
 // module.exports is how you export data in Node.js so that you can require() it in other files.
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('server')
-        .setDescription('Replies with Server name and total users!'),
+        .setName('user-info')
+        .setDescription('Display info about yourself.'),
     async execute(interaction) {
-        await interaction.reply(`Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`);
+        return interaction.reply(`Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`);
     },
 };
