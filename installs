@@ -1,0 +1,3 @@
+npm install discord.js
+npm install --save-dev eslint
+npm install @discordjs/rest 
